@@ -1,0 +1,236 @@
+.jumbo {
+  height: 600px;
+  width: 100%;
+}
+
+.head_row {
+  border-bottom: 3px solid red;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  height: 40px;
+  width: 98%;
+  background-color: white;
+  border-radius: 22px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 100;
+  font-size: 20pt;
+  margin-bottom: -20px;
+  padding-left: 19px;
+  padding-top: 4px;
+  color: darkgrey;
+}
+
+.red {
+  margin-top: -10px;
+}
+
+.blue {
+  border-color: blue;
+  margin-left: 15%;
+  width: 83%;
+}
+
+.yellow {
+  border-color: yellow;
+  margin-left: 30%;
+  width: 68%;
+}
+
+.green {
+  border-color: green;
+  margin-left: 45%;
+  width: 53%;
+}
+
+.red:hover {
+  animation: blushr;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.blue:hover {
+  animation: blushb;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.yellow:hover {
+  animation: blushy;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.green:hover {
+  animation: blushg;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.set {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.move1 {
+  animation: updown1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move2 {
+  animation: updown2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+.move3 {
+  animation: updown3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move4 {
+  animation: updown4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+.move5 {
+  animation: updown5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move6 {
+  animation: updown6;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+.move7 {
+  animation: updown7;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move8 {
+  animation: updown8;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+.move9 {
+  animation: updown9;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move10 {
+  animation: updown10;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+@keyframes blushr {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #ffe6e6; font-weight: bold;}
+}
+@keyframes blushb {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #e6e6ff; font-weight: bold;}
+}
+@keyframes blushg {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #e6ffe6; font-weight: bold;}
+}
+@keyframes blushy {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #ffffe6; font-weight: bold;}
+}
+
+@keyframes updown1 {
+  0% {height: inherit;}
+  40% {height: 5%;}
+  80% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown2 {
+  0% {height: inherit;}
+  10% {height: 5%;}
+  50% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown3 {
+  0% {height: inherit;}
+  30% {height: 5%;}
+  90% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown4 {
+  0% {height: inherit;}
+  50% {height: 5%;}
+  60% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown5 {
+  0% {height: inherit;}
+  10% {height: 5%;}
+  30% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown6 {
+  0% {height: inherit;}
+  90% {height: 5%;}
+  950% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown7 {
+  0% {height: inherit;}
+  30% {height: 5%;}
+  90% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown8 {
+  0% {height: inherit;}
+  20% {height: 5%;}
+  80% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown9 {
+  0% {height: inherit;}
+  10% {height: 5%;}
+  60% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown10 {
+  0% {height: inherit;}
+  20% {height: 5%;}
+  70% {height: 5%;}
+  100% {height: inherit;}
+}
