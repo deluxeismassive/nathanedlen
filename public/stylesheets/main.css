@@ -1,0 +1,363 @@
+.jumbo {
+  height: 380px;
+  width: 100%;
+}
+
+.head_row {
+  border-bottom: 5px solid red;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  height: 40px;
+  width: 98%;
+  background-color: white;
+  border-radius: 22px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 100;
+  font-size: 20pt;
+  margin-bottom: -20px;
+  padding-left: 19px;
+  padding-top: 4px;
+  color: darkgrey;
+  position: relative;
+}
+
+.red {
+  margin-top: -10px;
+}
+
+.blue {
+  border-color: blue;
+  margin-left: 15%;
+  width: 83%;
+}
+
+.yellow {
+  border-color: yellow;
+  margin-left: 38%;
+  width: 60%;
+}
+
+.green {
+  border-color: green;
+  margin-left: 53%;
+  width: 45%;
+}
+
+.red:hover {
+  animation: blushr;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.blue:hover {
+  animation: blushb;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.yellow:hover {
+  animation: blushy;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.green:hover {
+  animation: blushg;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.set {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.biography {
+  margin-left: 15px;
+  font-size: 14pt;
+}
+
+.projectImage {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+  font-size: 34pt;
+}
+
+.red > a {
+  margin-left: 10px;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.projectBodyText {
+  font-size: 14pt;
+  margin-left: 15px
+}
+
+.projectTitle {
+  font-size: 17pt;
+}
+
+.projectDescription {
+  margin-top: 3px;
+}
+
+.projectTech {
+  margin-left: 19px;
+  font-size: 11pt;
+}
+
+.projectContainer {
+  margin-top: 8px;
+}
+
+.test {
+  border: solid 2px green;
+}
+
+input {
+  border-radius: 3px;
+  outline: none;
+  border: solid 3px skyblue;
+  background: none;
+  margin-top: 5px;
+  font-family: 'Exo', sans-serif;
+  font-size: 12pt;
+  color: black;
+}
+
+textarea {
+  border-radius: 3px;
+  outline: none;
+  border: solid 3px skyblue;
+  background: none;
+  margin-top: 5px;
+  font-family: 'Exo', sans-serif;
+  font-size: 12pt;
+  color: black;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17pt;
+}
+
+.email {
+  height: 25px;
+  width: 80%;
+}
+
+.body {
+  height: 120px;
+  width: 80%;
+
+}
+
+.submitButton {
+  outline: none;
+  border: none;
+  font-family: 'Exo', sans-serif;
+  font-size: 12pt;
+  color: white;
+  margin-top: 10px;
+  background: tomato;
+  border-radius: 3px;
+  width: 70%;
+}
+
+.submitButton:hover {
+  background-color: lightblue;
+}
+
+.bioImage {
+  background-image: url('../images/bio.png');
+  float: right;
+  width: 300px;
+  height: 310px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  margin-right: 15px;
+  border: solid 5px tomato;
+  margin-top: -100px;
+}
+
+.move1 {
+  animation: updown1;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move2 {
+  animation: updown2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+.move3 {
+  animation: updown3;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move4 {
+  animation: updown4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+.move5 {
+  animation: updown5;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move6 {
+  animation: updown6;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+.move7 {
+  animation: updown7;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move8 {
+  animation: updown8;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+.move9 {
+  animation: updown9;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+.move10 {
+  animation: updown10;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+}
+
+@keyframes blushr {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #ffe6e6; font-weight: bold;}
+}
+@keyframes blushb {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #e6e6ff; font-weight: bold;}
+}
+@keyframes blushg {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #e6ffe6; font-weight: bold;}
+}
+@keyframes blushy {
+  0% {background-color: white; font-weight: 100;}
+  100% {background-color: #ffffe6; font-weight: bold;}
+}
+
+@keyframes updown1 {
+  0% {height: inherit;}
+  40% {height: 5%;}
+  80% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown2 {
+  0% {height: inherit;}
+  10% {height: 5%;}
+  50% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown3 {
+  0% {height: inherit;}
+  30% {height: 5%;}
+  90% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown4 {
+  0% {height: inherit;}
+  50% {height: 5%;}
+  60% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown5 {
+  0% {height: inherit;}
+  10% {height: 5%;}
+  30% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown6 {
+  0% {height: inherit;}
+  90% {height: 5%;}
+  95% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown7 {
+  0% {height: inherit;}
+  30% {height: 5%;}
+  90% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown8 {
+  0% {height: inherit;}
+  20% {height: 5%;}
+  80% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown9 {
+  0% {height: inherit;}
+  10% {height: 5%;}
+  60% {height: 5%;}
+  100% {height: inherit;}
+}
+
+@keyframes updown10 {
+  0% {height: inherit;}
+  20% {height: 5%;}
+  70% {height: 5%;}
+  100% {height: inherit;}
+}
