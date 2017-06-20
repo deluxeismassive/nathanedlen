@@ -11,11 +11,13 @@ $(document).ready(() => {
 
   function createRandomDiv (number) {
 
+    console.log(window.innerWidth);
+
     for (i = 0; i < number; i++) {
-      var h = (Math.random() * 750) + 5
+      var h = (Math.random() * window.innerHeight) + 5
       var w = (Math.random() * 20) + 5
       var p = (Math.random() * 10) + 1
-      var ew = (Math.random() * 695) + 5
+      var ew = (Math.random() * window.innerWidth/2) + 5
       var ns = (Math.random() * 50) + 5
       var cl = parseInt((Math.random() * 10) + 1)
       var color = getRandomColor()
@@ -61,7 +63,7 @@ $(document).ready(() => {
           reset();
         }
         if ($(this).hasClass('yellow')) {
-          $(this).animate({'height': '270px', 'top': "-230px"});
+          $(this).animate({'height': '390', 'top': "-230px"});
           $('.head_row').not($(this)).animate({'height': '40px', 'top': "0px"});
           reset();
           setTimeout(function(){generateProjects()}, 450);
@@ -102,8 +104,9 @@ $(document).ready(() => {
   }
 
   function generateProjects() {
-    generateSingleProject('../images/barricade.png', 'Barricade', 'A simple grid based game where the player attmepts to barricade the computer into not being able to move thier pieces.', 'jQuery, HTML, CSS, javascript','https://barricade-7149d.firebaseapp.com')
-    generateSingleProject('../images/defense.png', 'Space Defense', 'A tower defense style game where the player battles alien invaders in hopes of preserving the bases energy core.', 'C#, Unity, javascript, python', 'https://spacedefensegame.com')
+    generateSingleProject('../images/barricade.png', 'Barricade', 'A simple grid based game where the player attmepts to barricade the computer into not being able to move thier pieces.', 'jQuery, HTML, CSS, JavaScript','https://barricade-7149d.firebaseapp.com')
+    generateSingleProject('../images/defense.png', 'Space Defense', 'A tower defense style game where the player battles alien invaders in hopes of preserving the bases energy core.', 'C#, Unity, JavaScript, Python', 'https://spacedefensegame.com')
+    generateSingleProject('../images/capital.png', 'smartVotes', `A political app where critical information regarding congress and it's voting history is researched and reconciled against the users own voting wishes.`, 'AngularJS, Knex, Node, PostgresSQL, Auth0', 'https://smartvotes.co')
   }
 
   function generateSingleProject(imageURL, title, desc, tech, projectURL) {
