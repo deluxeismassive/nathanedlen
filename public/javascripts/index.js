@@ -79,7 +79,7 @@ $(document).ready(() => {
   })
 
   function generateNathanEdlen() {
-    $('.red').append($('<div>', {class: 'biography'}).text('Creative, forward thinking web engineer with a focus on front end applications.'))
+    $('.red').append($('<div>', {class: 'biography'}).text(`Lifelong computer lover with a passion for creative, forward thinking projects and web design.  I'm a full stack engineer with a JavaScript background and front end focus.`))
     $('.red').append($(`<a href='https://www.linkedin.com/in/nathan-edlen-development'><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>`))
     $('.red').append($(`<a href='https://github.com/deluxeismassive'><i class="fa fa-github icon" aria-hidden="true"></i></a>`))
     // $('.red').append($('<div>', {class: 'link'}))
