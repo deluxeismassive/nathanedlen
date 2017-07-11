@@ -52,7 +52,7 @@ $(document).ready(() => {
         $(this).addClass('clicked')
         // $('.head_row').not(this).hide(350);
         if ($(this).hasClass('red')) {
-          $(this).animate({'height': '105px', 'top': "-230px"});
+          $(this).animate({'height': '125px', 'top': "-230px"});
           $('.head_row').not($(this)).animate({'height': '40px', 'top': "0px"});
           reset();
           setTimeout(function(){generateNathanEdlen()}, 300);
