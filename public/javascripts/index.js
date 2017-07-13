@@ -27,7 +27,7 @@ $(document).ready(() => {
   }
 
   function createMenu() {
-    $(document.body).append($('<div>', {style: 'border-color:' + getRandomColor()+';', class: 'head_row red'}).text('Nathan Edlen - Full Stack Development'))
+    $(document.body).append($('<div>', {style: 'border-color:' + getRandomColor()+';', class: 'head_row red'}).text('Nathan Edlen - Full Stack Developer'))
     // $(document.body).append($('<div>', {style: 'border-color:' + getRandomColor()+';', class: 'head_row blue'}).text('Web Developer'))
     $(document.body).append($('<div>', {style: 'border-color:' + getRandomColor()+';', class: 'head_row yellow'}).text('Projects'))
     $(document.body).append($('<div>', {style: 'border-color:' + getRandomColor()+';', class: 'head_row green'}).text('Contact'))
@@ -52,7 +52,7 @@ $(document).ready(() => {
         $(this).addClass('clicked')
         // $('.head_row').not(this).hide(350);
         if ($(this).hasClass('red')) {
-          $(this).animate({'height': '125px', 'top': "-230px"});
+          $(this).animate({'height': '195px', 'top': "-230px"});
           $('.head_row').not($(this)).animate({'height': '40px', 'top': "0px"});
           reset();
           setTimeout(function(){generateNathanEdlen()}, 300);
@@ -79,8 +79,10 @@ $(document).ready(() => {
   })
 
   function generateNathanEdlen() {
-    $('.red').append($('<div>', {class: 'biography'}).text(`Lifelong computer lover with a passion for creative, forward thinking projects and web design.`))
-    $('.red').append($('<div>', {class: 'biography'}).text(`I'm a full stack engineer with a JavaScript background and front end focus.`))
+    $('.red').append($('<div>', {class: 'biography bioHeader'}).text(`Who is Nathan Edlen?`))
+    $('.red').append($('<div>', {class: 'biography'}).text(`Lifelong computer lover with an unyeilding passion for creative, forward thinking projects and web design.`))
+    $('.red').append($('<div>', {class: 'biography'}).text(`Full stack engineer with a JavaScript background and front end focus.`))
+    $('.red').append($('<div>', {class: 'biography'}).text(`Advocate for those in need, Listener, All-around good guy.`))
     $('.red').append($(`<a href='https://www.linkedin.com/in/nathan-edlen-development'><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>`))
     $('.red').append($(`<a href='https://github.com/deluxeismassive'><i class="fa fa-github icon" aria-hidden="true"></i></a>`))
     // $('.red').append($('<div>', {class: 'link'}))
